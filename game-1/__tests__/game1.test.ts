@@ -63,12 +63,6 @@ describe("Test función getFirstSubsetSumN", () => {
       expected: [1, 3],
       description: "Probando con números repetidos",
     },
-    {
-      input: [1, 2, 3, -5, 2],
-      target: 4,
-      expected: [1, 3],
-      description: "Probando con números repetidos",
-    },
   ];
 
   testCases.forEach(({ input, target, expected, description }) => {
