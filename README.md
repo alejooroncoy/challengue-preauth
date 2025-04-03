@@ -79,6 +79,5 @@ Mocha mostrará los resultados de las pruebas en la terminal. Si todo está corr
 - Ejemplo
   ![Imagen de tests satisfactorios juego 2](./assets/game-2-test.png)
 
-### Propuesta de mejora
-
-* Una mejora para una siguiente versión sería desacoplar cada caso, se puede utilizar el patrón Strategy para que cada tipo de item tenga su propia lógica separada.
+### Mejora continua
+* Se utilizo el patrón Abstract Factory para el desacoplamiento de la lógica de actualización de calidad para cada item; de esta manera, se pemitirá mayor control y organización para nuevos tipos de item en el futuro.
